@@ -1,0 +1,138 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-dic-2017, 23:55:41
+    Author     : aldito
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,500i,800i');
+
+
+/*input:invalid { 
+border: 1px solid red; 
+}
+
+input:required:valid { 
+border: 1px solid green; 
+}*/
+
+body {
+    background-image: url('../IMG/slidesofttallermecanico.jpg');
+    background-size: 100%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, .btn {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.table-responsive input {
+    max-width: 100px;
+}
+
+.container {
+    background-color: rgba(256,256,256,0.8);
+    border-radius: 4px;
+    padding: 20px 40px;
+    max-width: 850px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.login {
+    margin-top: 100px;
+    padding: 10px 30px 30px;
+} 
+
+.login .cabecera {
+    text-align: center;
+}
+.login .cabecera h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    border-bottom:1px solid #ccc;
+    
+}
+.title-section {
+    margin-bottom: 50px;
+}
+
+.title-head {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight:bold;
+}
+
+.main {
+    padding-top: 40px;
+}
+
+.main-menu {
+    margin-bottom: 40px;
+}
+
+.main-menu .img-responsive {
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 1px 9px 0px #22222269;
+}
+
+.pago-box_warpper {
+    margin-bottom: 20px;
+}
+
+.title-section {
+    margin-bottom: 20px;
+    
+    border-bottom:2px solid #ccc;
+}
+
+.select-date {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom:1px dashed #ccc;
+    display:flex;
+    width: 100%;
+}
+
+.chedule .head-chedule {
+    font-weight: bold;
+}
+
+.chedule .hora {
+    border-radius: 3px;
+    border:1px solid #ccc;
+    background-color: #ddd;
+    min-height: 40px;
+    margin-bottom: 4px;
+    padding:4px;
+    font-size: 13px;
+}
+
+.chedule .info-hora {
+    border-left:3px solid #222;
+    min-height: 40px;
+    margin-bottom: 4px;
+    padding:0px 8px 4px 8px;
+    font-weight: bold;
+}
+
+.chedule .hora.available {
+    background-color: #dbf1df;
+    border-color: #b8e4c0;
+}
+
+#cotizacion-buscar-auto {
+    border: 1px dotted #ccc;
+    padding: 10px;
+}
+
+#cotizacion-estado {
+    border: 2px solid #ccc;
+    padding: 10px;
+}
