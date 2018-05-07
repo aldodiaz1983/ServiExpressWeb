@@ -13,7 +13,8 @@
     </head>
     <body>
         <jsp:include page="head.html" flush="true"/>
-        <h1>Exxxxitoooooo!</h1>
+        <h1>Exxxxito!</h1>
+        
         <p>Muy bien perrin!</p>
         <button type="button" name="back" onclick="history.back()">back</button>
     </body>
